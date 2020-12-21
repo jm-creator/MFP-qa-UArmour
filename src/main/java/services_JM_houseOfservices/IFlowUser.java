@@ -1,7 +1,7 @@
 package services_JM_houseOfservices;
 
-import pages_repository.BasePage;
+import pages_repository.BasePageJM;
 
-public interface IFlowUser <T extends BasePage>{
+public interface IFlowUser <T extends BasePageJM>{
     void setUserFlow(T page);
 }

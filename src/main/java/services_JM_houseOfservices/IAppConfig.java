@@ -1,4 +1,4 @@
-package app_config_HoseOfServices;
+package services_JM_houseOfservices;
 
 import org.aeonbits.owner.Config;
 import org.aeonbits.owner.Config.LoadPolicy;
@@ -9,9 +9,9 @@ import org.aeonbits.owner.Config.LoadType;
 @Config.Sources({
         "system:properties",
         "classpath:general.properties",
-        "classpath:local.properties",
+        "classpath:driver_JM.local.properties",
         "classpath:grid.properties" })
-public interface AppConfig extends Config{
+public interface IAppConfig extends Config{
 
     @Key("target")
     String target();

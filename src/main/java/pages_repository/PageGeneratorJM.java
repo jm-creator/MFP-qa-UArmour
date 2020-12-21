@@ -5,16 +5,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class
-JMPageGenerator {
+PageGeneratorJM {
 
 
     public WebDriver jmDriver;
 
-    public JMPageGenerator(WebDriver driver) {
+    public PageGeneratorJM(WebDriver driver) {
         jmDriver = driver;
     }
 
-    public <TPage extends BasePage> TPage getInstance (Class<TPage> pageClass) {
+    public <TPage extends BasePageJM> TPage getInstance (Class<TPage> pageClass) {
         return PageFactory.initElements(jmDriver, pageClass);
     }
 }

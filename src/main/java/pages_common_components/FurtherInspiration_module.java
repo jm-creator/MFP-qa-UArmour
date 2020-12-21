@@ -3,12 +3,12 @@ package pages_common_components;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages_repository.BasePage;
+import pages_repository.BasePageJM;
 
 import java.util.List;
 import java.util.Random;
 
-public class FurtherInspiration_module extends BasePage {
+public class FurtherInspiration_module extends BasePageJM {
 
     private final boolean MODULE_EXISTENCE = false;
 
