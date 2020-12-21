@@ -1,4 +1,4 @@
-package app;
+package app_JM;
 
 public class jmService {
 

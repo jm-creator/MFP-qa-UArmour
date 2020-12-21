@@ -1,4 +1,4 @@
-package strategy_JMservices;
+package services_JM_houseOfservices;
 
 import pages_repository.BasePage;
 
