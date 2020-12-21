@@ -1,1 +1,1 @@
-# jm_MFP_UnderArmour_qa
+# testing-automation-mfp-blog
