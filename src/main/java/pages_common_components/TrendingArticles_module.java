@@ -6,14 +6,14 @@ package pages_common_components;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages_repository.BasePage;
+import pages_repository.BasePageJM;
 
 import java.util.List;
 import java.util.Random;
 
 //generic Trending articles
 
-public class TrendingArticles_module extends BasePage {
+public class TrendingArticles_module extends BasePageJM {
     private boolean FURTHER_INSPIRATION = false; //true if exist
 
     public TrendingArticles_module(WebDriver driver) {

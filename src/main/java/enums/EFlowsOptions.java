@@ -1,4 +1,4 @@
-package strategy_JMservices;
+package enums;
 
 import java.security.SecureRandom;
 import java.util.Random;
