@@ -1,4 +1,4 @@
-package pages_repository;
+package pages;
 
 
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package pages_common_components;
+package pagesCommonComponents;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

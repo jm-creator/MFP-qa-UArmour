@@ -1,8 +1,8 @@
-package app_config_HoseOfServices;
+package config;
 
 
 import org.aeonbits.owner.ConfigCache;
-import services_JM_houseOfservices.IAppConfig;
+import services.IAppConfig;
 
 
 public class ConfigurationManager {

@@ -1,4 +1,4 @@
-package services_JM_houseOfservices;
+package services;
 
 import org.openqa.selenium.WebDriver;
 

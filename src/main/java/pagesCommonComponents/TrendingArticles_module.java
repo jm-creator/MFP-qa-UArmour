@@ -1,4 +1,4 @@
-package pages_common_components;
+package pagesCommonComponents;
 /* first need to find all href links on module -> list
 *  next need to click one randomly
 *  how i give human random flow to my client (tests)?  */
@@ -6,7 +6,7 @@ package pages_common_components;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages_repository.BasePageJM;
+import pages.BasePageJM;
 
 import java.util.List;
 import java.util.Random;
@@ -19,8 +19,6 @@ public class TrendingArticles_module extends BasePageJM {
     public TrendingArticles_module(WebDriver driver) {
         super(driver);
     }
-
-    public enum userFlowPage {}
 
     @FindBy(xpath = "( //div[contains(concat(' ', @class, ' '), ' slick-track ')] )[1]")
     private static List<WebElement> trendingArticlesModuleList;

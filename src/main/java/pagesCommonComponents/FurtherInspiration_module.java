@@ -1,9 +1,9 @@
-package pages_common_components;
+package pagesCommonComponents;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages_repository.BasePageJM;
+import pages.BasePageJM;
 
 import java.util.List;
 import java.util.Random;

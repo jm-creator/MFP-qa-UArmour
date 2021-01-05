@@ -1,4 +1,4 @@
-package services_JM_houseOfservices;
+package services;
 
 import org.aeonbits.owner.Config;
 import org.aeonbits.owner.Config.LoadPolicy;
@@ -31,7 +31,7 @@ public interface IAppConfig extends Config{
     @Key("grid.url")
     String gridUrl();
 
-    @Key("grid.prot")
+    @Key("grid.port")
     String gridPort();
 
     @Key("faker.locale")
